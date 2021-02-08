@@ -1,0 +1,223 @@
+
+:root {
+  --light-surface: #FFFFFF90;
+  --light-title: #53565A;
+  --light-highLightSurface: #FFFFFF;
+  --light-mouseOverText: #00000090;
+  --light-mouseOverButtonText: #000000;
+  --dark-surface: #E4F9FB10;
+  --dark-title: #B7B7B7;
+  --dark-highLightSurface: #E4F9FB40;
+  --dark-mouseOverText: #FFFFFF90;
+  --dark-mouseOverButtonText: #FFFFFF;
+  --light-table-background: #F0F2F5;
+  --dark-table-background: #1D2125;
+  --light-table-title: rgb(46, 46, 46);
+  --dark-table-title: rgb(235, 235, 235);
+  --dark-table-divider: #FFFFFF10;
+  --light-table-divider: #00000010;
+  --dark-table-value: rgb(209, 209, 209);
+  --light-table-value: #333333;
+}
+
+.question-table-row:hover {
+  cursor: pointer;
+}
+
+.question-list-table-dark{
+  width: calc(100vw - 300px);
+}
+
+.question-list-table-light{
+  width: calc(100vw - 300px);
+}
+
+.question-list-table-dark .ant-table-thead th {
+  background: var(--dark-table-background);
+  color: var(--dark-table-title);
+  border-top: solid 0px var(--dark-table-divider);
+  border-bottom: solid 1px var(--dark-table-divider);
+}
+
+.question-list-table-dark .ant-table-tbody > tr>td{
+  background-color: var(--dark-table-background);
+  border-bottom: solid 1px var(--dark-table-divider);
+  color: var(--dark-table-value);
+}
+
+.question-list-table-dark .ant-table-tbody > tr:hover>td{
+  cursor: pointer;
+  background-color: rgb(88, 88, 88);
+}
+
+.question-list-table-dark .ant-pagination-item {
+  background-color: var(--dark-surface) !important;
+  color: #ffffff;
+  border: 1px solid var(--dark-table-divider) !important;
+}
+
+.question-list-table-dark .ant-pagination-item:hover {
+  background-color: var(--dark-highLightSurface) !important;
+  color: #ffffff;
+  border: 1px solid var(--dark-table-divider) !important;
+}
+
+.question-list-table-dark .ant-pagination-item-active {
+  background-color: var(--dark-surface) !important;
+  color: #ffffff;
+  border: 1px solid var(--dark-table-divider) !important;
+}
+
+.question-list-table-dark .ant-pagination-item a ,.ant-pagination-item-link:after{
+  color: var(--dark-title) !important;
+}
+
+.question-list-table-dark .ant-pagination-item-link {
+  background-color: var(--dark-surface);
+  color: var(--dark-title);
+  border: 0px;
+  -webkit-box-shadow:inset 0px 0px 0px 2px var(--dark-table-divider);
+  -moz-box-shadow:inset 0px 0px 0px 2px var(--dark-table-divider);
+  box-shadow:inset 0px 0px 0px 2px var(--dark-table-divider);
+}
+
+.question-list-table-dark .ant-pagination-item-link:hover {
+  background-color: var(--dark-highLightSurface);
+  color: var(--dark-table-title);
+  border: 0px;
+  -webkit-box-shadow:inset 0px 0px 0px 2px var(--dark-table-divider);
+  -moz-box-shadow:inset 0px 0px 0px 2px var(--dark-table-divider);
+  box-shadow:inset 0px 0px 0px 2px var(--dark-table-divider);
+}
+
+.question-list-table-dark .ant-pagination-simple-pager {
+  color: var(--dark-title);
+}
+
+.question-list-table-dark .ant-pagination-simple-pager input {
+  color: var(--dark-title);
+  background-color: var(--dark-surface);
+  border: 2px solid var(--dark-table-divider);
+}
+
+.question-list-table-dark .ant-pagination-simple-pager input:hover {
+  color: var(--dark-title);
+  background-color: var(--dark-surface);
+  border: 2px solid var(--dark-table-divider);
+}
+
+
+
+
+
+
+
+
+
+
+
+.question-list-table-light .ant-table-thead th {
+  background: var(--light-table-background);
+  color: var(--light-table-title);
+  border-top: solid 0px var(--light-table-divider);
+  border-bottom: solid 1px var(--light-table-divider);
+}
+
+.question-list-table-light .ant-table-tbody > tr>td{
+  background-color: var(--light-table-background);
+  border-bottom: solid 1px var(--light-table-divider);
+  color: var(--light-table-value);
+}
+
+.question-list-table-light .ant-table-tbody > tr:hover>td{
+  cursor: pointer;
+  background-color: rgb(230, 230, 230);
+}
+
+.question-list-table-light .ant-pagination-item {
+  background-color: var(--light-surface) !important;
+  color: #ffffff;
+  border: 1px solid var(--light-table-divider) !important;
+}
+
+.question-list-table-light .ant-pagination-item:hover {
+  background-color: var(--light-highLightSurface) !important;
+  color: #ffffff;
+  border: 1px solid var(--light-table-divider) !important;
+}
+
+.question-list-table-light .ant-pagination-item-active {
+  background-color: var(--light-surface) !important;
+  color: #ffffff;
+  border: 1px solid var(--light-table-divider) !important;
+}
+
+.question-list-table-light .ant-pagination-item a ,.ant-pagination-item-link:after{
+  color: var(--light-title) !important;
+}
+
+.question-list-table-light .ant-pagination-item-link {
+  background-color: var(--light-surface);
+  color: var(--light-title);
+  border: 0px;
+  -webkit-box-shadow:inset 0px 0px 0px 2px var(--light-table-divider);
+  -moz-box-shadow:inset 0px 0px 0px 2px var(--light-table-divider);
+  box-shadow:inset 0px 0px 0px 2px var(--light-table-divider);
+}
+
+.question-list-table-light .ant-pagination-item-link:hover {
+  background-color: var(--light-highLightSurface);
+  color: var(--light-table-title);
+  border: 0px;
+  -webkit-box-shadow:inset 0px 0px 0px 2px var(--light-table-divider);
+  -moz-box-shadow:inset 0px 0px 0px 2px var(--light-table-divider);
+  box-shadow:inset 0px 0px 0px 2px var(--light-table-divider);
+}
+
+.question-list-table-light .ant-pagination-item-ellipsis {
+  color: rgba(253, 54, 54, 0.565);
+  background-color: var(--light-surface);
+  border-radius: 3px;
+  border: 2px solid var(--light-table-divider);
+}
+
+.question-list-table-light .ant-pagination-item-ellipsis:hover {
+  color: rgba(253, 54, 54, 0.565);
+  background-color: var(--light-surface);
+  border-radius: 3px;
+  border: 2px solid var(--light-table-divider);
+}
+
+.question-list-table-light .ant-pagination-next ,.ant-pagination-jump-prev,.ant-pagination-jump-next{
+  color: #999 !important;
+}
+
+.question-list-table-light .ant-pagination-jump-prev:after, .ant-pagination-jump-next:after{
+  color: #999 !important;
+}
+
+.question-list-table-light .ant-pagination-item a ,.ant-pagination-item-link:after{
+  color: #999 !important;
+}
+
+.question-list-table-light .ant-pagination-simple-pager {
+  color: var(--light-title);
+}
+
+.question-list-table-light .ant-pagination-simple-pager input {
+  color: var(--light-title);
+  background-color: var(--light-surface);
+  border: 2px solid var(--light-table-divider);
+}
+
+.question-list-table-light .ant-pagination-simple-pager input:hover {
+  color: var(--light-title);
+  background-color: var(--light-surface);
+  border: 2px solid var(--light-table-divider);
+}
+
+.ant-table-pagination.ant-pagination {
+  margin-top: 30px;
+  margin-left: 5px;
+}
+

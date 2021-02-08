@@ -1,0 +1,75 @@
+
+:root {
+  --light-surface: #FFFFFF90;
+  --light-title: #53565A;
+  --light-highLightSurface: #FFFFFF;
+  --light-mouseOverText: #00000090;
+  --light-mouseOverButtonText: #000000;
+  --dark-surface: #E4F9FB10;
+  --dark-title: #B7B7B7;
+  --dark-modalBack: #00000025;
+  --dark-highLightSurface: #E4F9FB40;
+  --dark-mouseOverText: #FFFFFF90;
+  --dark-mouseOverButtonText: #FFFFFF;
+  --dark-buttonBorder: #777777;
+  --light-buttonBorder: #949596;
+  --dark-background: #1D2125;
+  --light-modalBackground: #F0F2F5;
+  --dark-modalBackground: rgb(12, 12, 12);
+  --dark-modalBorder: #FFFFFF15;
+  --dark-divider: #FFFFFF10;
+  --light-divider: #00000010;
+  --light-modalBorder: #5c5c5c;
+}
+
+.modal-dark {
+  background-color: var(--dark-modalBack) !important;
+}
+
+.modal-dark .ant-modal-content {
+  background-color: var(--dark-background) !important;
+  color: var(--dark-title);
+  border: 2px solid var(--dark-modalBorder);
+}
+
+.modal-dark .ant-modal-body {
+  background-color: var(--dark-background) !important;
+}
+
+.modal-dark .ant-modal-header {
+  background-color: var(--dark-background) !important;
+  border-bottom: 1px solid var(--dark-divider);
+}
+
+.modal-dark .ant-modal-footer {
+  background-color: var(--dark-background) !important;
+  border-top: 1px solid var(--dark-divider);
+}
+
+.modal-dark .ant-btn {
+  color: var(--dark-title);
+  background-color: var(--dark-surface);
+  border: 1px solid var(--dark-buttonBorder);
+}
+
+.modal-dark .ant-btn:focus {
+  color: var(--dark-title);
+  background-color: var(--dark-surface);
+  border: 1px solid var(--dark-buttonBorder);
+}
+
+.modal-dark .ant-btn:hover {
+  color: var(--dark-mouseOverButtonText);
+  background-color: var(--dark-highLightSurface);
+  border: 1px solid var(--dark-mouseOverButtonText);
+}
+
+.modal-dark .ant-btn:focus:hover {
+  color: var(--dark-mouseOverButtonText);
+  background-color: var(--dark-highLightSurface);
+  border: 1px solid var(--dark-mouseOverButtonText);
+}
+
+
+
+

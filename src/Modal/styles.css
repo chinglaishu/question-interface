@@ -1,0 +1,23 @@
+
+#password {
+  background-color: #f3c1c1;
+}
+
+#confirmPassword {
+  background-color: #cc7b7b;
+}
+
+.account-password-dark #password {
+  color: #FFFFFF;
+}
+
+.account-password-dark #confirmPassword {
+  color: #FFFFFF;
+}
+.account-password-light #password {
+  color: #000000;
+}
+
+.account-password-light #confirmPassword {
+  color: #000000;
+}

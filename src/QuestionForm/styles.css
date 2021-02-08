@@ -1,0 +1,25 @@
+
+/*
+.emojionearea {
+  background-color: black;
+}
+
+.emojionearea-inline {
+  background-color: rgb(0, 0, 0);
+}
+*/
+
+
+.form-icon-button {
+  color: #4e4e4e;
+}
+
+.form-icon-button:hover {
+  cursor: pointer;
+  color: #b4b4b4;
+}
+
+
+.date-picker-dark .ant-picker-input > input {
+  color: #D8D8D8;
+}

@@ -1,0 +1,81 @@
+
+:root {
+  --dark-inputBackground: #333B3E;
+  --dark-divider: #FFFFFF10;
+  --dark-value: #D8D8D8;
+  --dark-checkboxBorder: #FFFFFF60;
+}
+
+.form-item-dark .emojionearea, .emojionearea.form-control {
+  background-color: var(--dark-inputBackground);
+  border: 2px solid var(--dark-divider);
+}
+
+.form-item-dark .emojionearea .emojionearea-picker .emojionearea-wrapper::before {
+  background-image: url(../assets/image/white_emoji.png);
+}
+
+.form-item-dark .emojionearea .emojionearea-picker .emojionearea-wrapper::after {
+  background-image: url(../assets/image/white_emoji.png);
+}
+
+.form-item-dark .emojionearea .emojionearea-editor {
+  color: var(--dark-value);
+}
+
+.form-item-dark .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: var(--dark-inputBackground);
+  color: var(--dark-value);
+  border: 2px solid var(--dark-divider);
+}
+
+.form-item-dark .ant-select-multiple .ant-select-selector {
+  background-color: var(--dark-inputBackground);
+  color: var(--dark-value);
+  border: 2px solid var(--dark-divider);
+}
+
+.form-item-dark .ant-select-multiple .ant-select-selector:hover {
+  background-color: var(--dark-inputBackground);
+  color: var(--dark-value);
+  border: 2px solid var(--dark-divider);
+}
+
+.form-item-dark .ant-select-selection-item {
+  background-color: var(--dark-inputBackground);
+  color: var(--dark-value);
+}
+
+.form-item-dark .ant-select-selection-item-remove {
+  color: var(--dark-value);
+}
+
+.form-item-dark .ant-select-arrow {
+  color: var(--dark-value);
+}
+
+.form-item-dark .ant-select-dropdown .ant-select-dropdown-placement-bottomRight {
+  background-color: #00000000;
+  box-shadow: none;
+  padding: 0px;
+  margin: 0px;
+} 
+
+.form-item-dark .ant-select-dropdown {
+  background-color: #00000000;
+  box-shadow: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.form-div-dark .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: var(--dark-inputBackground);
+  color: var(--dark-value);
+  border: 2px solid var(--dark-checkboxBorder);
+}
+
+.form-div-dark .ant-checkbox .ant-checkbox-inner {
+  background-color: var(--dark-inputBackground);
+  color: var(--dark-value);
+  border: 2px solid var(--dark-checkboxBorder);
+}

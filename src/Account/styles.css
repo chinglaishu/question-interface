@@ -1,0 +1,44 @@
+
+.account-form .ant-select-selection {
+  width: 400px;
+}
+
+.form-select {
+  width: 400px;
+  height: 32px;
+}
+
+#currentPassword {
+  background-color: #00000000;
+}
+
+#newPassword {
+  background-color: #00000000;
+}
+
+#confirmPassword {
+  background-color: #00000000;
+}
+
+.account-password-dark #currentPassword {
+  color: #FFFFFF;
+}
+
+.account-password-dark #newPassword {
+  color: #FFFFFF;
+}
+
+.account-password-dark #confirmPassword {
+  color: #FFFFFF;
+}
+.account-password-light #currentPassword {
+  color: #000000;
+}
+
+.account-password-light #newPassword {
+  color: #000000;
+}
+
+.account-password-light #confirmPassword {
+  color: #000000;
+}
